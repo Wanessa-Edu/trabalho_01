@@ -8,12 +8,12 @@ int main(){
 
     //  valores aqui
     printf("Digite o primeiro valor inteiro (real): ");
-    scanf("%f, numero_1");
+    scanf("%f", &numero_1);
     printf("\nDigite um segundo valor de numero inteiro(real): ");
-    scanf("%f, numero_2");
+    scanf("%f", &numero_2);
 
     // Calculos e exibe os resultados das funcoes matematicas
-    printf("\nResultados:");
+    printf("\nResultados: ");
     printf("\nAdicao: %2.f", numero_1 + numero_2);
     printf("\nSubtracao: %.2f", numero_1 - numero_2);
     printf("\nMultiplicacao: %.2f", numero_1 * numero_2);
